@@ -672,7 +672,7 @@ Contributions welcome! Please open an issue or submit a pull request.
 - [API Gateway Documentation](https://docs.aws.amazon.com/apigateway/)
 - [DynamoDB Documentation](https://docs.aws.amazon.com/dynamodb/)
 - [Boto3 Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
-- [Pillow Documentation](https://pillow.readthedocs.io/)
+
 
 
 
