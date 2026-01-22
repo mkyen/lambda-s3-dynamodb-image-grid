@@ -26,12 +26,12 @@ User Request → API Gateway → Lambda (generate_grid) → S3 (destination-buck
 ### 🔐 IAM Permissions Setup
 Ensure the IAM Role attached to your Lambda functions has the following permissions policies:
 
-1.  **AWSLambdaBasicExecutionRole**
-    * *Why:* Required for writing logs to CloudWatch.
-2.  **AmazonS3FullAccess** (or granular access)
-    * *Why:* To read images from the source bucket and write the grid to the destination bucket.
-3.  **AmazonDynamoDBFullAccess** (or granular access)
-    * *Why:* To read/write metadata to the `GridBuilder` table.
+ *  **AWSLambdaBasicExecutionRole**
+    *  Required for writing logs to CloudWatch.
+ * **AmazonS3FullAccess** (or granular access)
+    * To read images from the source bucket and write the grid to the destination bucket.
+ *  **AmazonDynamoDBFullAccess** (or granular access)
+    * To read/write metadata to the `GridBuilder` table.
 
 > **Note:** For a production environment, it is recommended to restrict S3 and DynamoDB access to specific resource ARNs (Least Privilege Principle). For this lab, FullAccess is acceptable.
 >
