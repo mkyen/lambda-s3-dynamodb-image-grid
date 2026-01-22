@@ -4,7 +4,7 @@ A serverless API built on AWS that creates photo grids from uploaded images usin
 
 ## 🏗️ Architecture Overview
 
-![API Gateway flow](apigw.gif)
+![API Gateway flow](apigw.jpg)
 
 ```
 
